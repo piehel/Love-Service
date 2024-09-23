@@ -1,0 +1,185 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    margin-top: 1rem;
+    color: #1b5167;
+}
+
+#header > div {
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#header-img {
+    width: 50px;
+    margin-right: 0.5rem;
+    filter: invert(80%) sepia(27%) saturate(389%) hue-rotate(131deg) brightness(80%) contrast(86%);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    margin-right: 6rem;
+    font-size: 1.2rem;
+    color: #5b8576;
+    font-weight: bolder;
+}
+
+form {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: larger;
+}
+
+form > h1 {
+    background: linear-gradient(90deg, #032d3c 0%, #1c6178 50%, #6bafca 100%); /* Tạo gradient từ màu #0b3342 sang #1e5f74 */
+    -webkit-background-clip: text; /* Chỉ áp dụng gradient lên phần text */
+    -webkit-text-fill-color: transparent; /* Làm cho text trở nên trong suốt để thấy gradient */
+    text-align: center; /* Căn giữa văn bản (tùy chọn) */
+    margin-bottom: 10px;
+}
+
+#email, #submit {
+    display: block;
+    margin: 5px auto;
+}
+
+#email {
+    width: 17vw;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #0a534a;
+    text-align: center;
+}
+
+#submit {
+    width: 8vw;
+    height: 30px;
+    background-color:  #4D869C;
+    font-weight: 750;
+    color: aliceblue;
+    border: 0cap;
+    border-radius: 3px;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first, .second, .third {
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+.features > div > img {
+    width: 50px;
+    padding-left: 3rem;
+}
+
+.text {
+    display: block;
+    margin-left: 3rem;
+}
+
+.text > h1 {
+    margin-bottom: 0;
+}
+
+.text > p {
+    font-size: 16px;
+}
+
+img[class="stars"] {
+    filter: invert(76%) sepia(61%) saturate(2713%) hue-rotate(357deg) brightness(99%) contrast(106%);
+}
+
+img[class="rocket"] {
+    filter: invert(44%) sepia(81%) saturate(3386%) hue-rotate(4deg) brightness(95%) contrast(101%);
+}
+
+img[class="bag"] {
+    filter: invert(49%) sepia(99%) saturate(736%) hue-rotate(120deg) brightness(99%) contrast(84%);
+}
+
+.third > div > h1 {
+    color: #14C38E;
+}
+
+.second > div > h1 {
+    color: #eb5c00;
+}
+
+.first > div > h1 {
+    color: #ffb100;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+    align-content: center;
+}
+
+.price > div {
+    text-align: center;
+    border: 2px solid #1e766c;
+    border-radius: 3px;
+    width: 350px;
+    height: 400px;
+}
+
+.price > div > h1 {
+    background-color: #e0fff2;
+    color:#064961;
+    margin: 0;
+    padding: 10px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: unset;
+}
+
+.content > h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #1c6178;
+    margin-top: 1.25rem;
+}
+
+.content > p {
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.select > input {
+    height: 40px;
+    width: 40%;
+    background-color:#245f58;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+}
